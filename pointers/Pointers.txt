@@ -1,0 +1,19 @@
+A Pointer is the address of a variable.
+
+For example
+int x=10,y=20;
+int* p1=&x;
+int* p2=&y;
+variable name |  Variable Value | address
+x               10                  1000
+y               20                  1002
+p1              1000                1004
+p2              1002                1006
+
+&x=1000
+&y=1002
+x=10
+y=20
+*p1=*1000=10 //Value at address 1000
+*p2=*1002=20
+
